@@ -26,7 +26,7 @@ class Header extends Component{
                         <img src="assets/logo.png" alt="Site Logo" width="60"/>
                     </Link>
                 </div>
-                <Navbar sticky="top" expand="md">
+                <Navbar expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen = {this.state.isNavOpen} navbar>

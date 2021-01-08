@@ -30,5 +30,37 @@ export const RESOURCES = [
         image: "/assets/logo.png",
         name: "Craft #4"
 
+    }, 
+    {
+        resourceId: 4,
+        craftId: 0,
+        topicId: 0,
+        image: "/assets/logo.png",
+        name: "Craft #4"
+
+    },
+    {
+        resourceId: 5,
+        craftId: 0,
+        topicId: 0,
+        image: "/assets/logo.png",
+        name: "Craft #4"
+
+    },
+    {
+        resourceId: 6,
+        craftId: 0,
+        topicId: 0,
+        image: "/assets/logo.png",
+        name: "Craft #4"
+
+    },
+    {
+        resourceId: 7,
+        craftId: 0,
+        topicId: 0,
+        image: "/assets/logo.png",
+        name: "Craft #4"
+
     }
 ]

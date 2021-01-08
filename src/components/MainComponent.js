@@ -47,10 +47,10 @@ class Main extends Component{
                 <Switch>
                     <Route exact path = '/favorites' component={FavoritesPage} />
                     <Route exact path = '/suggestions' component={SuggestionsPage} />
+                    <Route path = '/home' render = {() => <HomePage resources = {this.state.resources}/>}/>
                     <Route path = '/:craftId/:topicId/:resourceId'/>
                     <Route path = '/:craftId/:topicId' />
                     <Route path = '/:craftId'/>
-                    <Route path = '/home' render = {() => <HomePage resources = {this.state.resources}/>}/>
                     <Redirect to = '/home'/>
                 </Switch>
             </div>

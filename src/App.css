@@ -84,7 +84,7 @@ h4{
   }
 }
 
-/* @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 :root{
   --level2-height: 150px;
@@ -100,10 +100,10 @@ h4{
   --level2-left: 50px;
 }
 
-body {
+/* body {
     background-color: #89FAD0;
     font-family: 'Lobster';
-}
+} */
 
 #carousel {
     position: absolute;
@@ -114,6 +114,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
+    font-family: 'Lobster';
 }
 
 .arrow {
@@ -133,7 +134,7 @@ body {
 }
 
 .arrow-right {
-    left: 780px;
+    left: 778px;
 }
 
 .item {
@@ -145,121 +146,121 @@ body {
 }
 
 .level-2 {
-    height: --level2-height;
-    width: --level2-width;
-    line-height: --level2-height;
+    height: var(--level2-height);
+    width: var(--level2-width);
+    line-height: var(--level2-height);
     background-color: #228291;
-    left: --level-2-left;
+    left: var(--level-2-left);
     margin-top: 25px;
 }
 
 .level-1 {
-    height: --level1-height;
-    width: --level1-width;
-    line-height: --level1-height;
+    height: var(--level1-height);
+    width: var(--level1-width);
+    line-height: var(--level1-height);
     background-color: #6796E5;
-    left: --level-1-left;
+    left: var(--level-1-left);
     margin-top: 10px;
 }
 
 .level0 {
-    height: --level0-height;
-    width: --level0-width;
-    line-height: --level0-height;
+    height: var(--level0-height);
+    width: var(--level0-width);
+    line-height: var(--level0-height);
     background-color: #4EC9E1;
-    left: --level0-left;
+    left: var(--level0-left);
 }
 
 .level1 {
-    height: --level1-height;
-    width: --level1-width;
-    line-height: --level1-height;
+    height: var(--level1-height);
+    width: var(--level1-width);
+    line-height: var(--level1-height);
     background-color: #6796E5;
     margin-top: 10px;
-    left: --level1-left;
+    left: var(--level1-left);
 }
 
 .level2 {
-    height: --level2-height;
-    width: --level2-width;
-    line-height: --level2-height;
+    height: var(--level2-height);
+    width: var(--level2-width);
+    line-height: var(--level2-height);
     background-color: #228291;
     margin-top: 25px;
-    left: --level2-left;
+    left: var(--level2-left);
 }
 
 .left-enter {
     opacity: 0;
-    left: --level2-left - --evel2-width;
-    height: --level2-height - 30;
-    width: --level2-width - 20;
-    line-height: --level2-height - 30;
+    left: var(--level2-left) - var(--level2-width);
+    height: var(--level2-height) - 30;
+    width: var(--level2-width) - 20;
+    line-height: var(--level2-height) - 30;
     margin-top: 40px;
 }
 
 .left-enter.left-enter-active {
     opacity: 1;
-    left: --level2-left;
-    height: --level2-height;
-    width: --level2-width;
-    line-height: --level2-height;
+    left: var(--level2-left);
+    height: var(--level2-height);
+    width: var(--level2-width);
+    line-height: var(--level2-height);
     margin-top: 25px;
     transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
 }
 
 .left-leave {
     opacity: 1;
-    left: --level-2-left;
-    height: --level2-height;
-    width: --level2-width;
-    line-height: --level2-height;
+    left: var(--level-2-left);
+    height: var(--level2-height);
+    width: var(--level2-width);
+    line-height: var(--level2-height);
     margin-top: 25px;
 }
 
 .left-leave.left-leave-active {
-    left: --level-2-left + --level2-width + 20;
+    left: var(--level-2-left) + var(--level2-width) + 20;
     opacity: 0;
-    height: --level2-height - 30;
+    height: var(--level2-height) - 30;
     line-height: 120px;
     margin-top: 40px;
-    width: --level2-width - 20;
+    width: var(--level2-width) - 20;
     transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
 }
 
 .right-enter {
     opacity: 0;
-    left: --level-2-left + --level2-width;
-    height: --level2-height - 30;
-    width: --level2-width - 20;
-    line-height: --level2-height - 30;
+    left: var(--level-2-left) + var(--level2-width);
+    height: var(--level2-height) - 30;
+    width: var(--level2-width) - 20;
+    line-height: var(--level2-height) - 30;
     margin-top: 40px;
 }
 
 .right-enter.right-enter-active {
-    left: --level-2-left;
+    left: var(--level-2-left);
     opacity: 1;
-    height: --level2-height;
+    height: var(--level2-height);
     margin-top: 25px;
-    line-height: --level2-height;
-    width: --level2-width;
+    line-height: var(--level2-height);
+    width: var(--level2-width);
     transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
 }
 
 .right-leave {
-    left: --level2-left;
-    height: --level2-height;
+    left: var(--level2-left);
+    height: var(--level2-height);
     opacity: 1;
     margin-top: 25px;
-    line-height: --level2-height;
-    width: --level2-width;
+    line-height: var(--level2-height);
+    width: var(--level2-width);
 }
 
 .right-leave.right-leave-active {
-    left: --level2-left - --level2-width;
+    left: var(--level2-left) - var(--level2-width);
     opacity: 0;
-    height: --level2-height - 30;
-    width: --level2-width - 20;
-    line-height: --level2-height - 30;
+    height: var(--level2-height) - 30;
+    width: var(--level2-width) - 20;
+    line-height: var(--level2-height) - 30;
     margin-top: 40px;
     transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
 }
@@ -270,4 +271,4 @@ body {
        -moz-user-select: none; 
         -ms-user-select: none;  
             user-select: none;
-} */
+}

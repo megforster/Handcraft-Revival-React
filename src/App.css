@@ -82,6 +82,11 @@ h4{
   border-color: black;
 }
 
+a, a:hover{
+  text-decoration: none;
+  color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -121,7 +126,7 @@ h4{
   margin-top:400px;
 }
 
-h3{
+h3, h2{
   width: 100%
 }
 

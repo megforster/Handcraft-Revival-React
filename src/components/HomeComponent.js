@@ -1,5 +1,4 @@
 import React, { Component }  from 'react';
-//import React from 'react';
 import { Card, CardImg, CardTitle} from 'reactstrap';
 import {Link} from 'react-router-dom'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
@@ -11,7 +10,8 @@ class Carousel extends Component{
         this.state = {
             items: this.props.items,
             active: this.props.active,
-            direction: ''
+            direction: '',
+            //carouselImages: [{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"},{url:"assets/logo.png", alt:"pic"}]
         }
         this.rightClick = this.moveRight.bind(this)
         this.leftClick = this.moveLeft.bind(this)
@@ -29,6 +29,7 @@ class Carousel extends Component{
                 index = i % this.state.items.length
             }
             level = this.state.active - i
+            //alert(this.state.items[index])
             items.push(<Item key={index} id={this.state.items[index]} level={level} />)
         }
 
@@ -79,6 +80,7 @@ class Item extends Component{
         const className = 'item level' + this.props.level
         return(
             <div className={className}>
+                {/* <img src = {this.state.carouselImages[this.props.id].url} alt = {this.state.carouselImages[this.props.id].alt}/> */}
                 {this.props.id}
             </div>
         )
@@ -90,7 +92,7 @@ var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] //{url:"assets/logo.png", alt:"pic"}
 function RenderCraftResource({resource}){
     return(
         <Link to = {`/${resource.craftId}/${resource.topicId}/${resource.resourceId}`}>
-            <Card>
+            <Card className = "card-item">
                 <CardTitle>{resource.name}</CardTitle>
                 <CardImg width="100%" src={resource.image} alt={resource.name} />
             </Card>
@@ -109,15 +111,13 @@ function HomePage(props){
     })
     return(
         <div className="container">
-            <div className="row">
-                <Carousel items={items} active={0}/>
-            </div>
-            {/* <div className="row">
+            <Carousel items={items} active={0}/>
+            <div className="row crafting-favorites">
                 <h3>Recent Crafting Favorites</h3>
                 <div className="row">
                     {craftingFavorites}
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }

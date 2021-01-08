@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import { RESOURCES } from '../shared/resources';
+import {FAVORITES} from '../shared/favorites'
 //import CraftPage from './CraftComponent';
 import FavoritesPage from './FavoritesComponent';
 import Header from './HeaderComponent';
@@ -14,7 +15,8 @@ class Main extends Component{
     constructor(props){
         super(props);
         this.state = {
-          resources: RESOURCES
+          resources: RESOURCES,
+          favorites: FAVORITES
     
         };
       }
@@ -45,7 +47,7 @@ class Main extends Component{
             <div>
                 <Header />
                 <Switch>
-                    <Route exact path = '/favorites' component={FavoritesPage} />
+                    <Route exact path = '/favorites' render = {() => <FavoritesPage favorites = {this.state.favorites}/>}/>
                     <Route exact path = '/suggestions' component={SuggestionsPage} />
                     <Route path = '/home' render = {() => <HomePage resources = {this.state.resources}/>}/>
                     <Route path = '/:craftId/:topicId/:resourceId'/>

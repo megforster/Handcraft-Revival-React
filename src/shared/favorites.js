@@ -1,4 +1,4 @@
-export const RESOURCES = [
+export const FAVORITES= [
     {
         resourceId: 0,
         craftId: 0,

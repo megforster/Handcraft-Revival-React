@@ -18,15 +18,26 @@ form{
   border-radius: 5px;
   padding: 5px;
 }
+ .login-form{
+  border:none;
+ }
+
+ .login-modal-header{
+   color:#a9d88d;
+ }
+
+ .login-modal-body{
+  background-color: #a9d88d;
+ }
 
 .submit{
-  background-color: #a9d88d;
+  background-color: white;
   border: 1px solid black;
   color:black;
 }
 
 .submit:hover{
-  background-color: #a9d88d;
+  background-color: white;
   border: 1px solid black;
   color:black;
   box-shadow: 2px 2px 4px 2px black; 
@@ -45,8 +56,30 @@ h4{
   text-align: center;
 }
 
+.navbar-container{
+  width: 100%;
+  justify-content: center;
+}
+
 .backgroundColorLight{
   background-color: #a9d88d;
+}
+
+.login-button{
+  color:gray;
+  border-color: gray;
+}
+
+.login-button:hover{
+  color:black !important;
+  border-color: black;
+  background-color: white !important;
+}
+
+.login-button:focus{
+  /* outline: 0 !important; */ /*Not working to remove border after button is selected*/
+  color:black !important;
+  border-color: black;
 }
 
 .App-logo {
@@ -84,6 +117,18 @@ h4{
   }
 }
 
+.crafting-favorites{
+  margin-top:400px;
+}
+
+h3{
+  width: 100%
+}
+
+.card-item{
+  margin-bottom: 10px;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 :root{
@@ -109,7 +154,11 @@ h4{
     position: absolute;
     height: 200px;
     width: 810px;
-    margin: auto;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom:50px;
     left: 0;
     right: 0;
     top: 0;

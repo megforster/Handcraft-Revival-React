@@ -15,9 +15,8 @@ class Main extends Component{
     constructor(props){
         super(props);
         this.state = {
-          resources: RESOURCES,
-          favorites: FAVORITES
-    
+          favorites: FAVORITES,
+          resources: RESOURCES
         };
       }
 
@@ -52,8 +51,8 @@ class Main extends Component{
                     <Route exact path = '/crochet' render = {() => <CraftPage title = "Crochet"/>}/>
                     <Route exact path = '/knitting' render = {() => <CraftPage title = "Knitting"/>}/>
                     <Route exact path = '/embroidery' render = {() => <CraftPage title = "Embroidery"/>}/>
-                    <Route exact path = '/topic' render = {() => <TopicPage/>}/>
-                    <Route exact path = '/resource' render = {() => <ResourcePage/>}/>
+                    <Route exact path = '/topic' render = {() => <TopicPage allResources = {this.state.resources}/>}/>
+                    <Route exact path = '/resource' render = {() => <ResourcePage allResources = {this.state.resources}/>}/>
                     <Route exact path = '/home' render = {() => <HomePage resources = {this.state.resources}/>}/>
                     <Route path = '/:craftId/:topicId/:resourceId'/>
                     <Route path = '/:craftId/:topicId' />

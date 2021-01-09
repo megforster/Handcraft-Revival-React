@@ -9,6 +9,7 @@ import HomePage from './HomeComponent';
 import ResourcePage from './ResourceComponent';
 import SuggestionsPage from './SuggestionsComponent';
 import TopicPage from './TopicComponent';
+import { CRAFTINFO } from '../shared/craftPageInfo';
 
 class Main extends Component{
 
@@ -16,7 +17,8 @@ class Main extends Component{
         super(props);
         this.state = {
           favorites: FAVORITES,
-          resources: RESOURCES
+          resources: RESOURCES, 
+          craftInfo: CRAFTINFO
         };
       }
 
@@ -48,9 +50,9 @@ class Main extends Component{
                 <Switch>
                     <Route exact path = '/favorites' render = {() => <FavoritesPage favorites = {this.state.favorites}/>}/>
                     <Route exact path = '/suggestions' component={SuggestionsPage} />
-                    <Route exact path = '/crochet' render = {() => <CraftPage title = "Crochet"/>}/>
-                    <Route exact path = '/knitting' render = {() => <CraftPage title = "Knitting"/>}/>
-                    <Route exact path = '/embroidery' render = {() => <CraftPage title = "Embroidery"/>}/>
+                    <Route exact path = '/crochet' render = {() => <CraftPage title = "Crochet" craftInfo={this.state.craftInfo}/>}/>
+                    <Route exact path = '/knitting' render = {() => <CraftPage title = "Knitting" craftInfo={this.state.craftInfo}/>}/>
+                    <Route exact path = '/embroidery' render = {() => <CraftPage title = "Embroidery"craftInfo={this.state.craftInfo}/>}/>
                     <Route exact path = '/topic' render = {() => <TopicPage allResources = {this.state.resources}/>}/>
                     <Route exact path = '/resource' render = {() => <ResourcePage allResources = {this.state.resources}/>}/>
                     <Route exact path = '/home' render = {() => <HomePage resources = {this.state.resources}/>}/>

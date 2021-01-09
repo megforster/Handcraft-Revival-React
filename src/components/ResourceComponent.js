@@ -1,19 +1,24 @@
 import {useLocation} from 'react-router-dom'
+import {Button} from 'reactstrap';
+
+function addTofavorites(){
+    alert("Adding to favorites functionality is in development!")
+}
 
 function ResourcePage(props){
     let location = useLocation();
     const resourceInfo = props.allResources.filter(r => r.craft===location.state.craft && r.topic===location.state.topic && r.resourceTitle === location.state.resource);
-    // const craft = props.craft;
-    // const topic = props.topic;
-    // const resource = props.resource;
 
-    // alert(allResources)
-    // alert(location.state.craft);
-    // alert(location.state.topic);
-    // alert(location.state.resource);
     return(
         <div className = "container">
-            <h4>{location.state.resource}</h4>
+            <div className="row">
+                <div className="col-md-11">
+                <h4>{location.state.resource}</h4>
+                </div>
+                <div className="col-md-1">
+                <Button className = "favorite-button" onClick={addTofavorites}><i class="fas fa-heart"></i></Button>
+                </div>
+            </div>
             <div className = "row">
                 <div className = "col-md-6 resource-box">
                     <h4>Why Is This Important</h4>

@@ -18,6 +18,11 @@ form{
   border-radius: 5px;
   padding: 5px;
 }
+
+.invalid-feedback{
+  margin-left:15px;
+}
+
  .login-form{
   border:none;
  }
@@ -120,6 +125,29 @@ a, a:hover{
   to {
     transform: rotate(360deg);
   }
+}
+
+.fa-heart{
+ color:#a9d88d
+}
+
+/* .fa-heart:hover{
+  color:white
+ } */
+
+.favorite-button{
+  background-color: white;
+  border: 1px solid gray
+}
+
+.favorite-button:hover, 
+.favroite-button:focus{
+  background-color: #a9d88d;
+  border: 1px solid black
+}
+
+.favorite-button:hover > .fa-heart{
+  color:white
 }
 
 .crafting-favorites{

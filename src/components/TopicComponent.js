@@ -2,85 +2,36 @@ import { Card, CardImg, CardTitle} from 'reactstrap';
 import {Link, useLocation} from 'react-router-dom'
 import React from 'react';
 
-
+function RenderTopicResources({resource}){
+    return(
+        <Link to ={{pathname:'/resource', state:{topic: `${resource.topic}`, id: `${resource.id}`}}}>
+            <Card className="card-item">
+                <CardTitle>{resource.name}</CardTitle>
+                <CardImg width="100%" src={resource.imageSrc} alt={resource.name}/>
+            </Card>
+        </Link>
+    );
+}
 
 function TopicPage(props){
     let location = useLocation();
-    // let allResources = props.allResources;
-    console.log(location)
+    const title = location.state.topic;
+    const craft = location.state.craft;
+    const topicResources = props.topicInfo.filter(r => r.topic === title && r.craft===craft);
+    const resources = topicResources.map(r => {
         return(
-            // turn into map iteration?
-            <div className="container">
-                <div className = "row">
-                    <h2>{location.state.topic}</h2>
+            <div key = {r.craft+"-"+r.id} className = "col-md-3">
+                <RenderTopicResources resource = {r} />
+            </div>
+        )
+    })
+        return(
+            <div className = "container">
+                <div className="row">
+                    <h2>{title}</h2>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
-                            <Link to = {{pathname:'/resource', state:{craft: location.state.craft, topic: location.state.topic, resource:"Resource"}}}>
-                                <Card className = "card-item">
-                                    <CardTitle>Resource</CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="supplies" />
-                                </Card>
-                            </Link>
-                        </div>
-                        <div className="col-md-3">
-                            <Link to = {`/${props.title}/supplies-needed-to-begin`}>
-                                <Card className = "card-item">
-                                    <CardTitle>Resource</CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="supplies" />
-                                </Card>
-                            </Link>
-                        </div>
-                        <div className="col-md-3">
-                            <Link to = {`/${props.title}/supplies-needed-to-begin`}>
-                                <Card className = "card-item">
-                                    <CardTitle>Resource</CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="supplies" />
-                                </Card>
-                            </Link>
-                        </div>
-                        <div className="col-md-3">
-                            <Link to = {`/${props.title}/the-basics`}>
-                                <Card className = "card-item">
-                                    <CardTitle>Resource</CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="basics" />
-                                </Card>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-3">
-                            <Link to = {`/${props.title}/projects-for-beginners`}>
-                                <Card className = "card-item">
-                                    <CardTitle>Resource</CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="beginnerProjects" />
-                                </Card>
-                            </Link>
-                        </div>
-                        <div className="col-md-3">
-                            <Link to = {`/${props.title}/${props.title}-history`}>
-                                <Card className = "card-item">
-                                    <CardTitle>Resource</CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="history" />
-                                </Card>
-                            </Link>
-                        </div>
-                        <div className="col-md-3">
-                            <Link to = {`/${props.title}/popular-${props.title}`}>
-                                <Card className = "card-item">
-                                    <CardTitle>Resource</CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="popular" />
-                                </Card>
-                            </Link>
-                        </div>
-                        <div className="col-md-3">
-                            <Link to = {`/${props.title}/advanced-projects`}>
-                                <Card className = "card-item">
-                                    <CardTitle>Recource </CardTitle>
-                                    <CardImg width="100%" src="assets/logo.png" alt="advanced" />
-                                </Card>
-                            </Link>
-                        </div>
+                    {resources}
                 </div>
             </div>
         );

@@ -16,7 +16,7 @@ export const CRAFTINFO =[
     }, 
     {
         craft: "Crochet", 
-        topic: "History of Crochet", 
+        topic: "History Of Crochet", 
         imageSrc: "assets/crochet-history.png"
     }, 
     {
@@ -46,7 +46,7 @@ export const CRAFTINFO =[
     }, 
     {
         craft: "Knitting", 
-        topic: "History of Knitting", 
+        topic: "History Of Knitting", 
         imageSrc: "assets/knitting-history.jpg"
     }, 
     {
@@ -76,7 +76,7 @@ export const CRAFTINFO =[
     }, 
     {
         craft: "Embroidery", 
-        topic: "History of Embroidery", 
+        topic: "History Of Embroidery", 
         imageSrc: "assets/embroidery-history.jpg"
     }, 
     {

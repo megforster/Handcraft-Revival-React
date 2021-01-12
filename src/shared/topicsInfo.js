@@ -67,7 +67,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "Crochet Hooks",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-hooks.jpg"
 
     },
     {
@@ -75,7 +75,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "Books For Beginners",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-beginner-book.jpg"
 
     },
     {
@@ -83,14 +83,14 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "All About Yarn",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/yarn.jpg"
     },
     {
         id:3,
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "Essential (And Non-Essential) Accessories",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-essential-supplies.jpeg"
 
     }, 
     {
@@ -98,7 +98,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "Crochet Kits",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-kit.webp"
 
     },
     {
@@ -106,7 +106,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "Where To Get Supplies",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-shop.jpeg"
 
     },
     {
@@ -114,7 +114,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "Favorite Hook Brands",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-hook-brand.png"
 
     },
     {
@@ -122,7 +122,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Supplies Needed To Begin",
         name: "Favorite Yarn Brands",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-yarn-brand.jpg"
 
     },
     {
@@ -758,4 +758,508 @@ export const TOPICINFO = [
         imageSrc: "/assets/logo.png"
 
     },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Hoops",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Needles",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Thread",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Essential (And Non-Essential) Accessories",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Kits",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Where To Get Supplies",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Favorite Thread Brands",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Favorite Needles",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "How To Use An Embroidery Hoop",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "Threading The Needle",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "Embroidery Thread",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "Chain Stitch, Satin Stitich, And Running Stitch",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "Tying Off Thread",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "Tracing Patterns",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "Backing Your Embroidery",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "The Basics",
+        name: "How To Read A Pattern",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "Raining Rainbow",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "Forest Pattern",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "Heart Sampler",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "Easy Beginner's Bee",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "Embroidered Drink Cozie",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "No Green Thumb Required",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "Home Sweet Embroidered Home",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "Projects For Beginners",
+        name: "Favorite Needles",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "Where Did Embroidery Come From?",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "Tools Of The Trade",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "Common Projects",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "Evolution Of Technique",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "Patterns And Books",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "Who Emboridered?",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "How Embroidery Shaped Other Yarn/Thread Crafts",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "History Of Embroidery",
+        name: "Why Embroider?",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Hoops",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Needles",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Thread",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Essential (And Non-Essential) Accessories",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Kits",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Where To Get Supplies",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Favorite Thread Brands",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Favorite Needles",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "Aline Brant",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "Mary Corbet's Neelde 'N Thread",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "Sumbline Stitching",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "ipnot",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "Pintangle",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "Amberry Lamb",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "Nekomatahime",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "Popular Embroidery Artists",
+        name: "Kimberley Ouimet",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Hoops",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Needles",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Thread",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Essential (And Non-Essential) Accessories",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Embroidery Kits",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Where To Get Supplies",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Favorite Thread Brands",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "Supplies Needed To Begin",
+        name: "Favorite Needles",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:0,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Creating Embroidery Patterns",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:1,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Advanced Stitches",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:2,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Applique",
+        imageSrc: "/assets/logo.png"
+    },
+    {
+        id:3,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Embroidering Yarn Work",
+        imageSrc: "/assets/logo.png"
+
+    }, 
+    {
+        id:4,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Pederia",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:5,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Silk Ribbon Embroidery",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:6,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Reflief/3D",
+        imageSrc: "/assets/logo.png"
+
+    },
+    {
+        id:7,
+        craft: "Embroidery",
+        topic: "More Advanced Projects",
+        name: "Needle Lace",
+        imageSrc: "/assets/logo.png"
+
+    }
 ]

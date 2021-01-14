@@ -4,7 +4,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "Where Did Crochet Come From?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-origins.jpg"
 
     },
     {
@@ -12,7 +12,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "Tools Of The Trade",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-tools.jpg"
 
     },
     {
@@ -20,14 +20,14 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "Common Projects",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-common-projects.jpg"
     },
     {
         id:3,
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "Evolution Of Technique",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-technique.jpg"
 
     }, 
     {
@@ -35,7 +35,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "Patterns And Books",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-books.png"
 
     },
     {
@@ -43,7 +43,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "Who Crocheted?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-who.jpg"
 
     },
     {
@@ -51,7 +51,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "What Came First, Knitting Or Crochet?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-vs-knitting.jpg"
 
     },
     {
@@ -59,7 +59,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "History Of Crochet",
         name: "Why Crochet?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-why.jpg"
 
     },
     {
@@ -130,7 +130,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "The Basics",
         name: "Slip Knots, Chaining, And Slip Stitches",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-slip-stitch.jpg"
 
     },
     {
@@ -138,15 +138,15 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "The Basics",
         name: "Where To Insert Your Hook",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-where-hook.png"
 
     },
     {
         id:2,
         craft: "Crochet",
         topic: "The Basics",
-        name: "Singe, Double, And Half Double Crochet",
-        imageSrc: "/assets/logo.png"
+        name: "Singe, Double, Half Double, And Triple Crochet",
+        imageSrc: "/assets/crochet-basics.jpg"
 
     },
     {
@@ -154,7 +154,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "The Basics",
         name: "Starting A New Row",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-new-row.jpeg"
 
     },
     {
@@ -194,7 +194,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Scarves",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-scarf.jpg"
 
     },
     {
@@ -202,7 +202,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Pot Holders",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-pot-holder.jpg"
 
     },
     {
@@ -210,7 +210,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Drink Cozies",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-drink-cozie.png"
 
     },
     {
@@ -218,7 +218,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Small Shapes",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-shapes.jpg"
 
     },
     {
@@ -226,7 +226,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Granny Squares",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-granny-square.jpg"
 
     },
     {
@@ -234,7 +234,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Headbands",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-headband.jpg"
 
     },
     {
@@ -242,7 +242,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Blankets",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-baby-blanket.jpg"
 
     },
     {
@@ -250,7 +250,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Projects For Beginners",
         name: "Hats",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-hat.jpg"
 
     },
     {
@@ -258,7 +258,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "The Crochet Crowd",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-popular.jpg"
 
     },
     {
@@ -266,7 +266,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "Vickie Howell",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-vickie-howell.jpeg"
 
     },
     {
@@ -274,7 +274,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "Moogly",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-moogly-logo.jpg"
 
     },
     {
@@ -282,7 +282,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "Bella Coco",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-bella-coco.jpg"
 
     },
     {
@@ -290,7 +290,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "Hopeful Honey",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-hopeful-honey.png"
 
     },
     {
@@ -298,7 +298,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "The Spruce Crafts",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-spruce-craft.png"
 
     },
     {
@@ -306,7 +306,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "Repeat Crafter Me",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-repeat-crafter-me.png"
 
     },
     {
@@ -314,7 +314,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "Popular Crocheters",
         name: "Petals To Picots",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-petals-to-picots.jpg"
 
     },
     {
@@ -322,7 +322,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "Creating Crochet Patterns",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-create-pattern.jpg"
 
     },
     {
@@ -330,7 +330,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "Complex Stitches",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-complex-stitches.jpg"
 
     },
     {
@@ -338,7 +338,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "More Advanced Resource Books",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-advanced-resource.jpg"
 
     },
     {
@@ -346,7 +346,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "Difficult Projects",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-advanced.jpg"
 
     },
     {
@@ -354,7 +354,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "Tatting",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-tatting.jpeg"
 
     },
     {
@@ -362,7 +362,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "Bead Crochet",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-bead.jpg"
 
     },
     {
@@ -370,7 +370,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "Amigurumi",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-amigurumi.png"
 
     },
     {
@@ -378,7 +378,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "More Advanced Projects",
         name: "Wire Crochet",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/corchet-wire.jpg"
 
     },
     {
@@ -386,7 +386,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "Knitting Needles",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-needles.png"
 
     },
     {
@@ -394,7 +394,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "Books For Beginners",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-beginner-book.jpg"
 
     },
     {
@@ -402,14 +402,14 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "All About Yarn",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/yarn.jpg"
     },
     {
         id:3,
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "Essential (And Non-Essential) Accessories",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-essential.jpg"
 
     }, 
     {
@@ -417,7 +417,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "Knitting Kits",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-kit.jpg"
 
     },
     {
@@ -425,7 +425,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "Where To Get Supplies",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-shop.jpeg"
 
     },
     {
@@ -433,7 +433,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "Favorite Needle Brands",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-hook-brand.png"
 
     },
     {
@@ -441,7 +441,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Supplies Needed To Begin",
         name: "Favorite Yarn Brands",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-yarn-brand.jpg"
 
     },
     {
@@ -449,15 +449,15 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "The Basics",
         name: "Casting On And Off",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-cast-on.jpeg"
 
     },
     {
         id:1,
         craft: "Knitting",
         topic: "The Basics",
-        name: "Where To Insert Your Hook",
-        imageSrc: "/assets/logo.png"
+        name: "Where To Insert Your Needle",
+        imageSrc: "/assets/knitting-where-hook.jpg"
 
     },
     {
@@ -465,14 +465,14 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "The Basics",
         name: "Knit Stitch and Purl Stitch",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-basics.jpeg"
     },
     {
         id:3,
         craft: "Knitting",
         topic: "The Basics",
         name: "Picking Up A Dropped Stitch",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-dropped-stitch.jpg"
 
     }, 
     {
@@ -480,7 +480,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "The Basics",
         name: "Starting A New Row",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-new-row.jpg"
 
     },
     {
@@ -488,7 +488,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "The Basics",
         name: "Chaning Colors",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-change-colors.jpg"
 
     },
     {
@@ -496,7 +496,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "The Basics",
         name: "Eding Projects",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-edge.jpg"
 
     },
     {
@@ -504,7 +504,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "The Basics",
         name:"How To Read A Pattern",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-read-pattern.jpg"
 
     },
     {
@@ -512,7 +512,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Projects For Beginners",
         name: "Pet Bow Tie",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-pet.jpg"
 
     },
     {
@@ -520,7 +520,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Projects For Beginners",
         name: "Drink Cozies",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-drink-cozie.jpg"
 
     },
     {
@@ -528,14 +528,14 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Projects For Beginners",
         name: "Blankets",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-blanket.png"
     },
     {
         id:3,
         craft: "Knitting",
         topic: "Projects For Beginners",
         name: "Dish Cloth",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-dish-cloth.jpg"
 
     }, 
     {
@@ -543,7 +543,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Projects For Beginners",
         name: "Hats",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-hat.jpg"
 
     },
     {
@@ -551,7 +551,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Projects For Beginners",
         name: "Bookmarks",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-bookmark.jpg"
 
     },
     {
@@ -559,7 +559,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Projects For Beginners",
         name: "Scarves",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-beginner-project.jpg"
 
     },
     {
@@ -567,14 +567,14 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Projects For Beginners",
         name:"Cowls",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-cowel.jpeg"
     },
     {
         id:0,
         craft: "Knitting",
         topic: "History Of Knitting",
-        name: "Where Did Crochet Come From?",
-        imageSrc: "/assets/logo.png"
+        name: "Where Did Knitting Come From?",
+        imageSrc: "/assets/knitting-where.jpg"
 
     },
     {
@@ -582,7 +582,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "History Of Knitting",
         name: "Tools Of The Trade",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-tols.jpg"
 
     },
     {
@@ -590,14 +590,14 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "History Of Knitting",
         name: "Common Projects",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-common.jpeg"
     },
     {
         id:3,
         craft: "Knitting",
         topic: "History Of Knitting",
         name: "Evolution Of Technique",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-evolution.jpg"
 
     }, 
     {
@@ -605,7 +605,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "History Of Knitting",
         name: "Patterns And Books",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-book.jpg"
 
     },
     {
@@ -613,7 +613,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "History Of Knitting",
         name: "Who Knitted?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-history.jpg"
 
     },
     {
@@ -621,23 +621,23 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "History Of Knitting",
         name: "What Came First, Knitting Or Crochet?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-vs-knitting.jpg"
 
     },
     {
         id:7,
         craft: "Knitting",
         topic: "History Of Knitting",
-        name: "Why Crochet?",
-        imageSrc: "/assets/logo.png"
+        name: "Why Knit?",
+        imageSrc: "/assets/knitting-who.jpg"
 
     },
     {
         id:0,
         craft: "Knitting",
         topic: "Popular Knitters",
-        name: "Where Did Crochet Come From?",
-        imageSrc: "/assets/logo.png"
+        name: "NobleKnits",
+        imageSrc: "/assets/knitting-noble-knits.png"
 
     },
     {
@@ -645,7 +645,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Popular Knitters",
         name: "Yessy's Designs",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-yessy.jpg"
 
     },
     {
@@ -653,14 +653,14 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Popular Knitters",
         name: "KnitSprout",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-popular.jpg"
     },
     {
         id:3,
         craft: "Knitting",
         topic: "Popular Knitters",
-        name: "Two Winks",
-        imageSrc: "/assets/logo.png"
+        name: "Toasty Tribe",
+        imageSrc: "/assets/knitting-toasty-tribes.jpg"
 
     }, 
     {
@@ -668,7 +668,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Popular Knitters",
         name: "Northern Loop Knitwear",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-northern-loop.jpg"
 
     },
     {
@@ -676,7 +676,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Popular Knitters",
         name: "Little Cotton Rabbits",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-little-cotton.png"
 
     },
     {
@@ -684,7 +684,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Popular Knitters",
         name: "Tin Can Knits",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-tin-can.png"
 
     },
     {
@@ -692,7 +692,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "Popular Knitters",
         name: "Olive Knits",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-olive.png"
 
     },
     {
@@ -700,7 +700,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "Creating Knitting Patterns",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-make-pattern.jpg"
 
     },
     {
@@ -708,7 +708,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "Complex Stitches",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-complex.jpg"
 
     },
     {
@@ -716,14 +716,14 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "More Advanced Resources And Books",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-advanced-book.jpg"
     },
     {
         id:3,
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "Difficult Projects",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-advanced.jpg"
 
     }, 
     {
@@ -731,7 +731,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "Knitting With Beads",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-bead.jpg"
 
     },
     {
@@ -739,7 +739,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "Knitting With Circular Needles",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-circular.jpg"
 
     },
     {
@@ -747,7 +747,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "Knitting With Three Needles",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-three.jpeg"
 
     },
     {
@@ -755,7 +755,7 @@ export const TOPICINFO = [
         craft: "Knitting",
         topic: "More Advanced Projects",
         name: "Felting",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/knitting-felting.jpg"
 
     },
     {
@@ -763,7 +763,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Embroidery Hoops",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-hoop.jpg"
 
     },
     {
@@ -771,7 +771,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Needles",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-neddle.jpg"
 
     },
     {
@@ -779,14 +779,14 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Embroidery Thread",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-thread.webp"
     },
     {
         id:3,
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Essential (And Non-Essential) Accessories",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-supplies.jpg"
 
     }, 
     {
@@ -794,7 +794,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Embroidery Kits",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-kit.webp"
 
     },
     {
@@ -802,7 +802,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Where To Get Supplies",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-shop.jpeg"
 
     },
     {
@@ -810,7 +810,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Favorite Thread Brands",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-brand.jpg"
 
     },
     {
@@ -818,7 +818,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Supplies Needed To Begin",
         name: "Favorite Needles",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-needle-brand.jpeg"
 
     },
     {
@@ -826,7 +826,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "The Basics",
         name: "How To Use An Embroidery Hoop",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-use-hoop.jpg"
 
     },
     {
@@ -834,22 +834,22 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "The Basics",
         name: "Threading The Needle",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-thread-neddle.jpg"
 
     },
     {
         id:2,
         craft: "Embroidery",
         topic: "The Basics",
-        name: "Embroidery Thread",
-        imageSrc: "/assets/logo.png"
+        name: "Embroidery Fabrics",
+        imageSrc: "/assets/embroidery-fabrics.jpeg"
     },
     {
         id:3,
         craft: "Embroidery",
         topic: "The Basics",
         name: "Chain Stitch, Satin Stitich, And Running Stitch",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-basic.jpg"
 
     }, 
     {
@@ -857,7 +857,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "The Basics",
         name: "Tying Off Thread",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-tying.jpg"
 
     },
     {
@@ -865,7 +865,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "The Basics",
         name: "Tracing Patterns",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-trace.jpg"
 
     },
     {
@@ -873,7 +873,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "The Basics",
         name: "Backing Your Embroidery",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-backing.jpg"
 
     },
     {
@@ -881,7 +881,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "The Basics",
         name: "How To Read A Pattern",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-pattern.jpg"
 
     },
     {
@@ -1013,69 +1013,6 @@ export const TOPICINFO = [
     {
         id:0,
         craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Embroidery Hoops",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:1,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Needles",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:2,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Embroidery Thread",
-        imageSrc: "/assets/logo.png"
-    },
-    {
-        id:3,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Essential (And Non-Essential) Accessories",
-        imageSrc: "/assets/logo.png"
-
-    }, 
-    {
-        id:4,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Embroidery Kits",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:5,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Where To Get Supplies",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:6,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Favorite Thread Brands",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:7,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Favorite Needles",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:0,
-        craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Aline Brant",
         imageSrc: "/assets/logo.png"
@@ -1133,69 +1070,6 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Kimberley Ouimet",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:0,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Embroidery Hoops",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:1,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Needles",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:2,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Embroidery Thread",
-        imageSrc: "/assets/logo.png"
-    },
-    {
-        id:3,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Essential (And Non-Essential) Accessories",
-        imageSrc: "/assets/logo.png"
-
-    }, 
-    {
-        id:4,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Embroidery Kits",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:5,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Where To Get Supplies",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:6,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Favorite Thread Brands",
-        imageSrc: "/assets/logo.png"
-
-    },
-    {
-        id:7,
-        craft: "Embroidery",
-        topic: "Supplies Needed To Begin",
-        name: "Favorite Needles",
         imageSrc: "/assets/logo.png"
 
     },

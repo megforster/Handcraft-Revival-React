@@ -4,7 +4,7 @@ import React from 'react';
 
 function RenderTopicResources({resource}){
     return(
-        <Link to ={{pathname:'/resource', state:{craft: `${resource.craft}`, name: `${resource.name}`}}}>
+        <Link to ={{pathname:'/resource', state:{craft: `${resource.craft}`, name: `${resource.name}`, imageSrc:`${resource.imageSrc}`}}}>
             <Card className="card-item">
                 <CardTitle>{resource.name}</CardTitle>
                 <CardImg width="100%" src={resource.imageSrc} alt={resource.name}/>

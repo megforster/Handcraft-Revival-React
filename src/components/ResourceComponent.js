@@ -2,8 +2,22 @@ import {useLocation} from 'react-router-dom'
 import {Button} from 'reactstrap';
 import parse from 'html-react-parser';
 
+let location;
+let listOfFavorites = [];
+
 function addTofavorites(){
-    alert("Adding to favorites functionality is in development!")
+    if(listOfFavorites.filter(f => f.name === location.state.name).length ===0){
+        listOfFavorites.push({
+            name: location.state.name, 
+            imageSrc: location.state.imageSrc, 
+            craft: location.state.craft
+        })
+    }else{
+        let index = listOfFavorites.indexOf({ name: location.state.name, 
+            imageSrc: location.state.imageSrc, 
+            craft: location.state.craft});
+        listOfFavorites.splice(index, 1)
+    }
 }
 
 function RenderResource({resource}){
@@ -24,9 +38,9 @@ function RenderResource({resource}){
     );
 }
 function ResourcePage(props){
-    let location = useLocation();
-    const resourceInfo = props.resources.filter(r => r.craft===location.state.craft && r.name === location.state.name);
-    console.log(resourceInfo)
+    listOfFavorites = props.favorites;
+    location = useLocation();
+    let resourceInfo = props.resources.filter(r => r.craft===location.state.craft && r.name === location.state.name)[0];
     return(
         <div className = "container">
             <div className="row">
@@ -38,7 +52,7 @@ function ResourcePage(props){
                 </div>
             </div>
             <br/>
-            <RenderResource resource = {resourceInfo[0]}/>
+            <RenderResource resource = {resourceInfo}/>
         </div>
     );
 }

@@ -889,7 +889,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Projects For Beginners",
         name: "Raining Rainbow",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-raining-rainbow.png"
 
     },
     {
@@ -897,7 +897,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Projects For Beginners",
         name: "Forest Pattern",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-forest.jpg"
 
     },
     {
@@ -905,14 +905,14 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Projects For Beginners",
         name: "Heart Sampler",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-heart-sampler.jpg"
     },
     {
         id:3,
         craft: "Embroidery",
         topic: "Projects For Beginners",
         name: "Easy Beginner's Bee",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/emboridery-beginner-project.jpg"
 
     }, 
     {
@@ -920,7 +920,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Projects For Beginners",
         name: "Embroidered Drink Cozie",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-drink-cozie.jpg"
 
     },
     {
@@ -928,7 +928,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Projects For Beginners",
         name: "No Green Thumb Required",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-green-thumb.jpeg"
 
     },
     {
@@ -936,15 +936,15 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Projects For Beginners",
         name: "Home Sweet Embroidered Home",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-home-sweet.jpg"
 
     },
     {
         id:7,
         craft: "Embroidery",
         topic: "Projects For Beginners",
-        name: "Favorite Needles",
-        imageSrc: "/assets/logo.png"
+        name: "Mountain Embroidery Samplerem",
+        imageSrc: "/assets/embroidery-mountain.jpg"
 
     },
     {
@@ -952,7 +952,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "History Of Embroidery",
         name: "Where Did Embroidery Come From?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-origin.jpg"
 
     },
     {
@@ -960,7 +960,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "History Of Embroidery",
         name: "Tools Of The Trade",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-tools.jpg"
 
     },
     {
@@ -968,14 +968,14 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "History Of Embroidery",
         name: "Common Projects",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-common.jpg"
     },
     {
         id:3,
         craft: "Embroidery",
         topic: "History Of Embroidery",
         name: "Evolution Of Technique",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-technique.jpg"
 
     }, 
     {
@@ -983,7 +983,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "History Of Embroidery",
         name: "Patterns And Books",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-historic-book.jpg"
 
     },
     {
@@ -991,15 +991,15 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "History Of Embroidery",
         name: "Who Emboridered?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-history.jpg"
 
     },
     {
         id:6,
         craft: "Embroidery",
         topic: "History Of Embroidery",
-        name: "How Embroidery Shaped Other Yarn/Thread Crafts",
-        imageSrc: "/assets/logo.png"
+        name: "Transition From Hand Embroidery To Machine",
+        imageSrc: "/assets/embroidery-machine.jpg"
 
     },
     {
@@ -1007,7 +1007,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "History Of Embroidery",
         name: "Why Embroider?",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-why.jpg"
 
     },
     {
@@ -1015,7 +1015,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Aline Brant",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-aline.png"
 
     },
     {
@@ -1023,7 +1023,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Mary Corbet's Neelde 'N Thread",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embrodiery-mary.png"
 
     },
     {
@@ -1031,14 +1031,14 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Sumbline Stitching",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-popular.png"
     },
     {
         id:3,
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "ipnot",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embrodiery-ipnot.png"
 
     }, 
     {
@@ -1046,7 +1046,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Pintangle",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-pintangle.jpg"
 
     },
     {
@@ -1054,7 +1054,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Amberry Lamb",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-amberry.png"
 
     },
     {
@@ -1062,7 +1062,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Nekomatahime",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-neko.jpg"
 
     },
     {
@@ -1070,7 +1070,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "Popular Embroidery Artists",
         name: "Kimberley Ouimet",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-kimberly.png"
 
     },
     {
@@ -1078,7 +1078,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Creating Embroidery Patterns",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-make-pattern.jpg"
 
     },
     {
@@ -1086,7 +1086,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Advanced Stitches",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-complex-stitch.jpg"
 
     },
     {
@@ -1094,14 +1094,14 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Applique",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-applique.jpg"
     },
     {
         id:3,
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Embroidering Yarn Work",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-yarn.jpg"
 
     }, 
     {
@@ -1109,7 +1109,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Pederia",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-pederia.jpg"
 
     },
     {
@@ -1117,7 +1117,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Silk Ribbon Embroidery",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-silk.jpg"
 
     },
     {
@@ -1125,7 +1125,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Reflief/3D",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-3d.jpg"
 
     },
     {
@@ -1133,7 +1133,7 @@ export const TOPICINFO = [
         craft: "Embroidery",
         topic: "More Advanced Projects",
         name: "Needle Lace",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/embroidery-lace.jpg"
 
     }
 ]

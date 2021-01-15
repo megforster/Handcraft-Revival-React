@@ -58,11 +58,8 @@ class Main extends Component{
                     <Route exact path = '/knitting' render = {() => <CraftPage title = "Knitting" craftInfo={this.state.craftInfo}/>}/>
                     <Route exact path = '/embroidery' render = {() => <CraftPage title = "Embroidery" craftInfo={this.state.craftInfo}/>}/>
                     <Route exact path = '/topic' render = {() => <TopicPage topicInfo = {this.state.topicInfo}/>}/>
-                    <Route exact path = '/resource' render = {() => <ResourcePage resources = {this.state.resourceInfo}/>}/>
+                    <Route exact path = '/resource' render = {() => <ResourcePage resources = {this.state.resourceInfo} favorites = {this.state.favorites}/>}/>
                     <Route exact path = '/home' render = {() => <HomePage resources = {this.state.craftingFavorites}/>}/>
-                    <Route path = '/:craftId/:topicId/:resourceId'/>
-                    <Route path = '/:craftId/:topicId' />
-                    {/* <Route path = '/:craftId'/> */}
                     <Redirect to = '/home'/>
                 </Switch>
             </div>

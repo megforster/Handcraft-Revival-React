@@ -3,11 +3,12 @@ import { Card, CardImg, CardTitle} from 'reactstrap';
 import {Link} from 'react-router-dom'
 
 function RenderCraftResource({resource}){
+    console.log(resource)
     return(
-        <Link to = {`/${resource.craftId}/${resource.topicId}/${resource.resourceId}`}>
+        <Link to ={{pathname:'/resource', state:{craft: `${resource.craft}`, name: `${resource.name}`}}}>
             <Card className = "card-item">
                 <CardTitle>{resource.name}</CardTitle>
-                <CardImg width="100%" src={resource.image} alt={resource.name} />
+                <CardImg width="100%" src={resource.imageSrc} alt={resource.name} />
             </Card>
         </Link>
     );
@@ -17,7 +18,7 @@ function FavoritesPage(props){
 
     const resourceFavorites = props.favorites.map(resource => {
         return(
-            <div key={resource.resourceId} className = "col-md-3">
+            <div key={resource.name} className = "col-md-3">
                 <RenderCraftResource resource = {resource} />
             </div>
         )

@@ -29,7 +29,6 @@ class Carousel extends Component{
                 index = i % this.state.items.length
             }
             level = this.state.active - i
-            //alert(this.state.items[index])
             items.push(<Item key={index} id={this.state.items[index]} level={level} />)
         }
 
@@ -80,7 +79,6 @@ class Item extends Component{
         const className = 'item level' + this.props.level
         return(
             <div className={className}>
-                {/* <img src = {this.state.carouselImages[this.props.id].url} alt = {this.state.carouselImages[this.props.id].alt}/> */}
                 {this.props.id}
             </div>
         )
@@ -113,7 +111,7 @@ function HomePage(props){
         <div className="container">
             <Carousel items={items} active={0}/>
             <div className="row crafting-favorites">
-                <h3>Recent Crafting Favorites</h3>
+                <h3>Recent Resource Favorites</h3>
                 <div className="row">
                     {craftingFavorites}
                 </div>

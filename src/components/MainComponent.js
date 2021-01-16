@@ -28,26 +28,6 @@ class Main extends Component{
 
     render(){
 
-        // const Craft = ({match}) => {
-        //     return(
-        //         <CraftPage 
-        //             //crafts = {this.state.crafts.filter(craft => craft.id === +match.params.)}
-        //         />
-        //     );
-        // }
-
-        // const CraftWithTopicId = () => {
-        //     return(
-        //         <TopicPage />
-        //     )
-        // }
-
-        // const CraftWithTopicAndResourceId = () => {
-        //     return(
-        //     <ResourcePage/>
-        //     )
-        // }
-
         return(
             <div>
                 <Header />

@@ -2,7 +2,7 @@ import React, { Component }  from 'react';
 import { Card, CardImg, CardTitle} from 'reactstrap';
 import {Link} from 'react-router-dom'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-
+import parse from 'html-react-parser';
 
 class Carousel extends Component{
     constructor(props) {
@@ -77,22 +77,44 @@ class Item extends Component{
     
     render() {
         const className = 'item level' + this.props.level
+        let linkAddress = '';
+        switch(this.props.id){
+            case '<img src="assets/logo.png" alt="Site Logo" width="150"/>':
+                linkAddress = '/home'
+                break;
+            case '<img src="assets/knitting.jpg" alt="Site Logo" width="150"/>':
+                linkAddress = '/knitting'
+                break;
+            case '<img src="assets/suggestion.png" alt="Site Logo" width="150"/>':
+                linkAddress = '/suggestions'
+                break;
+            case '<img src="assets/crochet.jpg" alt="Site Logo" width="150"/>':
+                linkAddress = '/crochet'
+                break;
+            case '<img src="assets/embroidery.jpg" alt="Site Logo" width="150"/>':
+                linkAddress = '/embroidery'
+                break;
+            default:
+                linkAddress = "/home"
+        }
         return(
             <div className={className}>
-                {this.props.id}
+                {/* {this.props.id} */}
+                <Link to={linkAddress}>{parse(`${this.props.id}`)}</Link>
+                
             </div>
         )
     }
 }
-
-var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] //{url:"assets/logo.png", alt:"pic"}
+// {parse(`${resource.importance}`)}
+var items = ['<img src="assets/logo.png" alt="Site Logo" width="150"/>','<img src="assets/knitting.jpg" alt="Site Logo" width="150"/>', '<img src="assets/suggestion.png" alt="Site Logo" width="150"/>','<img src="assets/crochet.jpg" alt="Site Logo" width="150"/>', '<img src="assets/embroidery.jpg" alt="Site Logo" width="150"/>'] //{url:"assets/logo.png", alt:"pic"}
 
 function RenderCraftResource({resource}){
     return(
-        <Link to = {`/${resource.craftId}/${resource.topicId}/${resource.resourceId}`}>
-            <Card className = "card-item">
+        <Link to ={{pathname:'/resource', state:{craft: `${resource.craft}`, name: `${resource.name}`, imageSrc:`${resource.imageSrc}`}}}>
+            <Card className="card-item">
                 <CardTitle>{resource.name}</CardTitle>
-                <CardImg width="100%" src={resource.image} alt={resource.name} />
+                <CardImg width="100%" src={resource.imageSrc} alt={resource.name}/>
             </Card>
         </Link>
     );

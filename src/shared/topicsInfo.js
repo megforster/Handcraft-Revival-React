@@ -145,7 +145,7 @@ export const TOPICINFO = [
         id:2,
         craft: "Crochet",
         topic: "The Basics",
-        name: "Singe, Double, Half Double, And Triple Crochet",
+        name: "Single, Double, Half Double, And Triple Crochet",
         imageSrc: "/assets/crochet-basics.jpg"
 
     },
@@ -162,7 +162,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "The Basics",
         name: "Weaving In Tails",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-weave-tail.jpg"
 
     },
     {
@@ -170,7 +170,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "The Basics",
         name: "Changing Colors",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-color-change.jpg"
 
     },
     {
@@ -178,7 +178,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "The Basics",
         name: "Edging Projects",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-edge-project.jpg"
 
     },
     {
@@ -186,7 +186,7 @@ export const TOPICINFO = [
         craft: "Crochet",
         topic: "The Basics",
         name: "How To Read A Pattern",
-        imageSrc: "/assets/logo.png"
+        imageSrc: "/assets/crochet-read-pattern.jpg"
 
     },
     {

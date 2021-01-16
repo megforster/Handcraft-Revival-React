@@ -196,7 +196,7 @@ class SuggestionsPage extends Component{
                         </Form>
                     </div>
                     <div className="col-lg">
-                        <Form>
+                        <Form onSubmit={this.handleSubmit}>
                             <h4>Suggest A New Craft Category</h4>
                             <FormGroup row>
                                 <Label htmlFor="craftName" className="col-sm-4">Craft Name</Label>
@@ -243,7 +243,7 @@ class SuggestionsPage extends Component{
                         </Form>
                     </div>
                     <div className="col-lg">
-                        <Form>
+                        <Form onSubmit={this.handleSubmit}>
                         <h4>Suggest An Improvement To The Site</h4>
                         <FormGroup row>
                             <Label htmlFor="idea" className="col-sm-4">Idea</Label>

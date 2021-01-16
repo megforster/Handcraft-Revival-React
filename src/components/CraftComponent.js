@@ -33,7 +33,7 @@ function CraftPage(props){
     const craftTopics = props.craftInfo.filter(c => c.craft === props.title);
     const topics = craftTopics.map(t => {
         return(
-            <div key={t.craft+"-"+t.topic} className = "col-md-3">
+            <div key={t.craft+"-"+t.topic} className = "col-xs-1 col-md-6 col-xl-3">
                 <RenderCraftResource topic = {t}/>
             </div>
         )
@@ -45,7 +45,7 @@ function CraftPage(props){
                 <h2>{title}</h2>
             </div>
             <div className="row"> 
-                <div className="col-md-6">
+                <div className="col-xs-2 col-md-12 col-xl-6">
                     <iframe width="475" height="275" src={videoSrc} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title={props.topic}></iframe>
                 </div>
                 {topics}
